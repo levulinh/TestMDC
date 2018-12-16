@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_add_device"
+        android:textColor="#000"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_add_tv"
+        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_tv"
+        android:textAlignment="viewStart"
+        android:textColor="#000"
+        app:icon="@drawable/small_tv"
+        app:iconSize="24dp"
+        app:iconTint="#000" />
+
+    <Button
+        android:id="@+id/btn_add_fan"
+        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_add_fan"
+        android:textAlignment="viewStart"
+        android:textColor="#000"
+        app:icon="@drawable/small_fan"
+        app:iconSize="24dp"
+        app:iconTint="#000" />
+
+    <Button
+        android:id="@+id/btn_add_air_con"
+        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_add_air_con"
+        android:textAlignment="viewStart"
+        android:textColor="#000"
+        app:icon="@drawable/small_air_con"
+        app:iconSize="24dp"
+        app:iconTint="#000" />
+</LinearLayout>
